@@ -1,0 +1,6 @@
+export const TOOL_TYPES = {
+  RENDER: 'RENDER',
+  SELECT: 'SELECT',
+  VIDEO_CUT: 'VIDEO_CUT',
+  AUDIO_ADD: 'AUDIO_ADD'
+};
