@@ -2,6 +2,8 @@ import RenderToolIcon from '../Assets/render.png';
 import SelectToolIcon from '../Assets/select.png';
 import VideoCutToolIcon from '../Assets/video-cut.png';
 import AudioAddToolIcon from '../Assets/audio-add.png';
+import ImageAddToolIcon from '../Assets/image-add.png';
+import BgColorChangeToolIcon from '../Assets/bg-color-change.png';
 import {TOOL_TYPES} from './toolTypes';
 
 export const IMAGE_TYPE = {
@@ -11,10 +13,6 @@ export const IMAGE_TYPE = {
 
 
 export const TOOL_ICONS = [
-  {
-    Name: TOOL_TYPES.RENDER,
-    Icon: RenderToolIcon
-  },
   {
     Name: TOOL_TYPES.SELECT,
     Icon: SelectToolIcon
@@ -26,5 +24,17 @@ export const TOOL_ICONS = [
   {
     Name: TOOL_TYPES.AUDIO_ADD,
     Icon: AudioAddToolIcon
+  },
+  {
+    Name: TOOL_TYPES.ADD_PHOTO,
+    Icon: ImageAddToolIcon
+  },
+  {
+    Name: TOOL_TYPES.ADD_PHOTO,
+    Icon: BgColorChangeToolIcon
+  },
+  {
+    Name: TOOL_TYPES.RENDER,
+    Icon: RenderToolIcon
   }
 ];
