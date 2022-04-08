@@ -5,7 +5,7 @@ const {name,url} = props;
     return (
         <ScVideo>
             <h5>{name}</h5>
-            <iframe src={url}></iframe>
+            <input type="image" className="tumb-video" src={url} alt={name}/>
         </ScVideo>
     );
 }

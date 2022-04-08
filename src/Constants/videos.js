@@ -6,10 +6,10 @@ export const VIDEO_NAMES = {
 export const VIDEO_LINKS = [
   {
     Name: VIDEO_NAMES.PAPACI,
-    Url: "https://www.youtube.com/embed/O-3v0CDNv0M",
+    Url: "https://img.youtube.com/vi/O-3v0CDNv0M/0.jpg",
   },
   {
     Name: VIDEO_NAMES.IKINCIGUN,
-    Url: "https://www.youtube.com/embed/VJxdCGxZJXc",
+    Url: "https://img.youtube.com/vi/VJxdCGxZJXc/0.jpg",
   }
 ];
