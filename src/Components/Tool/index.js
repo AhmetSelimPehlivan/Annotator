@@ -2,7 +2,6 @@ import ScTool from './ScTool';
 import {string, prototype} from 'prop-types';
 const Tool = (props) => {
 const {name, icon} = props;
-console.log(icon);
     return (
         <ScTool>
             <input type="image" className="tool-button" src={icon} alt={name}/>

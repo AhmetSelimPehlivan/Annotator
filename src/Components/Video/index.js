@@ -1,20 +1,21 @@
 import ScVideo from './ScVideo';
-import {string, prototype} from 'prop-types';
+import {string, propTypes} from 'prop-types';
 const Video = (props) => {
-const {name,video} = props;
+const {name,url} = props;
     return (
         <ScVideo>
-            {name}
+            <h5>{name}</h5>
+            <iframe src={url}></iframe>
         </ScVideo>
     );
 }
 Video.propTypes = {
   name: string,
-  video: prototype
+  url: string
 };
 
 Video.defaultProps = {
-  name: "null",
-  video: null
+  name: "",
+  url: ""
 };
 export default Video;

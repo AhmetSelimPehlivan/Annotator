@@ -16,6 +16,7 @@ const ScTool = Styled.li`
         }
     }
     .tool-name{
+        font-size: 15px;
         text-align: center;
     }
 `;

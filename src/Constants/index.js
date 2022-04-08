@@ -10,17 +10,21 @@ export const IMAGE_TYPE = {
 };
 
 
-export const TOOL_ICONS = {
-  [TOOL_TYPES.RENDER]: {
+export const TOOL_ICONS = [
+  {
+    Name: TOOL_TYPES.RENDER,
     Icon: RenderToolIcon
   },
-  [TOOL_TYPES.SELECT]: {
+  {
+    Name: TOOL_TYPES.SELECT,
     Icon: SelectToolIcon
   },
-  [TOOL_TYPES.VIDEO_CUT]: {
+  {
+    Name: TOOL_TYPES.VIDEO_CUT,
     Icon: VideoCutToolIcon
   },
-  [TOOL_TYPES.AUDIO_ADD]: {
+  {
+    Name: TOOL_TYPES.AUDIO_ADD,
     Icon: AudioAddToolIcon
   }
-};
+];

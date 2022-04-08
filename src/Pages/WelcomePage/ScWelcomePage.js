@@ -5,7 +5,7 @@ const ScWelcomePage = Styled.div`
     .firstEdit{
         width: 550px; 
         height: 330px;
-        margin-right: 15px;
+        margin-right: 10px;
     }
 `;
 export default ScWelcomePage;
