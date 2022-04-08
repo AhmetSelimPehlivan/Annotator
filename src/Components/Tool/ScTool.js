@@ -1,5 +1,10 @@
 import Styled from "styled-components";
-const ScTool = Styled.div`
+const ScTool = Styled.li`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     .tool-button{
         width: 40px;
         height: 40px;
@@ -9,6 +14,9 @@ const ScTool = Styled.div`
         &:hover{
             background-color: lightgray;
         }
+    }
+    .tool-name{
+        text-align: center;
     }
 `;
 export default ScTool;

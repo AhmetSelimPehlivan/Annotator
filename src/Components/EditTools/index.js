@@ -10,10 +10,10 @@ const EditTools = () => {
     return (
         <ScEditTools>
             <ul className="tools">
-                <Tool icon={RenderToolIcon}/>
-                <Tool icon={SelectToolIcon}/>
-                <Tool icon={VideoCutToolIcon}/>
-                <Tool icon={AudioAddToolIcon}/>
+                <Tool icon={VideoCutToolIcon} name="Cut"/>
+                <Tool icon={SelectToolIcon} name="Select"/>
+                <Tool icon={AudioAddToolIcon} name="Audio Add"/>
+                <Tool icon={RenderToolIcon} name="Render"/>
             </ul>
         </ScEditTools>
     );
