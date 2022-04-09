@@ -7,7 +7,7 @@ const VideoList = ({onClick}) => {
         <ScVideoList>
             <h5 className="video-list-header">VideoList</h5>
             <ul className="video-list">
-               {VIDEO_LINKS.map(item =><Video onClick={onClick} name={item.Name} url={item.Url}/> )}
+               {VIDEO_LINKS.map(item =><Video onClick={onClick} id={item.ID} name={item.Name} url={item.Thumbnail}/> )}
             </ul>
         </ScVideoList>
     );

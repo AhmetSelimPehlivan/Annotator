@@ -30,7 +30,7 @@ export const TOOL_ICONS = [
     Icon: ImageAddToolIcon
   },
   {
-    Name: TOOL_TYPES.ADD_PHOTO,
+    Name: TOOL_TYPES.BACKGROUND_COLOR,
     Icon: BgColorChangeToolIcon
   },
   {
