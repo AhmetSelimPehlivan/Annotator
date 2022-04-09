@@ -2,6 +2,7 @@ import Navbar from '../../Components/Navbar';
 import EditTools from '../../Components/EditTools';
 import AudioList from '../../Components/AudioList';
 import VideoList from '../../Components/VideoList';
+import VideoPlayer from '../../Components/VideoPlayer';
 import ScWelcomePage from './ScWelcomePage';
 import { VIDEO_LINKS } from '../../Constants/videos';
 import { useState } from 'react';
@@ -13,7 +14,7 @@ const getClickedVideo = (selectedVideoID) => { setshownVideo(VIDEO_LINKS[selecte
         <>
         <Navbar/>
         <ScWelcomePage>
-            <iframe className="firstEdit" src={shownVideo} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <VideoPlayer url={shownVideo}/>
             <EditTools/>
             <VideoList onClick={getClickedVideo}/>
             <AudioList/>
